@@ -1,0 +1,18 @@
+.templates {
+    width: 512px;
+    margin: 5rem auto 0; 
+    border-radius: 5px;
+    overflow: hidden;
+}
+.app-title {
+    background: #c3d7eb;
+    color: #2e2e2e;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background: white;
+}
