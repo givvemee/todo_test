@@ -2,6 +2,7 @@ import React from 'react';
 import ListItem from './ListItem';
 
 const List = ({todo, removeTodo, onToggle}) => {
+    
     return (
         <div className="todolist">
             {
@@ -11,4 +12,4 @@ const List = ({todo, removeTodo, onToggle}) => {
     );
 };
 
-export default List;
+export default React.memo(List);

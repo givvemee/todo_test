@@ -17,4 +17,4 @@ const ListItem = ({ todo, removeTodo, onToggle }) => {
     );
 };
 
-export default ListItem;
+export default React.memo(ListItem);
